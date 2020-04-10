@@ -1,0 +1,30 @@
+.main-nav__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 350px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  margin-right: 17px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.main-nav__link {
+  padding: 9px;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  color: $color-nav-link;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-btn-hover;
+  }
+}

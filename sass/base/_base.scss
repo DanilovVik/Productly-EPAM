@@ -1,0 +1,14 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  @extend %font-prim;
+  @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
+  background-color: $color-light;
+}
+
+h1 {
+  @extend %font-add;
+  @include font($size: 4.4rem, $height: 5.4rem, $weight: bold);
+}
