@@ -1,0 +1,34 @@
+.btn {
+  @extend %font-prim;
+  padding: 11px 25px 13px;
+  font-size: $font-size-text;
+  font-weight: 600;
+  line-height: 2.2rem;
+  color: $color-light;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  &__bordered {
+    margin-right: 14px;
+    background-color: transparent;
+    color: #173a56;
+    border: 1px solid #BCD0E5;
+    &:hover {
+      background-color: #BCD0E5;
+      color: #173A56;
+      border: 1px solid #BCD0E5;
+    }
+  }
+
+  &__colored {
+    background-color: $color-btn-primery;
+    border: 1px solid $color-btn-primery;
+    &:hover {
+      background-color: $color-btn-hover;
+      color: $color-light;
+      border: 1px solid $color-btn-hover;
+    }
+  }
+}

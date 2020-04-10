@@ -1,0 +1,49 @@
+.promo {
+  padding: 30px 0 111px;
+  background-image: url(../../img/promo/promo.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.promo__content {
+  max-width: 500px;
+  margin-bottom: 80px;
+  padding-top: 83px;
+  box-sizing: border-box;
+}
+
+.promo__title {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.promo__text {
+  margin: 0;
+  padding-right: 30px;
+  @extend %font-add;
+  @include font($size: 1.8rem, $height: 2.8rem , $weight: normal);
+}
+
+.promo__buttons {
+  display: flex;
+  align-items: center;
+
+  & .btn__colored {
+    margin-right: 44px;
+  }
+}
+
+.promo__link {
+  display: inline-flex;
+  align-items: center;
+  @extend %font-add;
+  color: $color-btn-primery;
+  text-decoration: underline;
+
+  &:hover {
+    color: $color-red;
+    .icon__play {
+      background-image: url("../../img/icons/play-hover.svg");
+    }
+  }
+}

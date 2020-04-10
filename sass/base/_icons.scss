@@ -1,0 +1,18 @@
+.icon {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.icon__play {
+  width: 18px;
+  height: 18px;
+  margin-right: 9px;
+  background-image: url("../../img/icons/play.svg");
+
+  &:hover {
+      color: $color-red;
+      .ico_play {
+          background-image: url("../img/icons/play-hover.svg");
+      }
+  }
+}
