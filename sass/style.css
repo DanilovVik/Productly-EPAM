@@ -476,22 +476,56 @@ h1 {
   border: 1px solid #ff7549;
 }
 
-.icon {
+.ico {
   display: inline-block;
   cursor: pointer;
 }
-
-.icon__play {
+.ico__play {
   width: 18px;
   height: 18px;
   margin-right: 9px;
   background-image: url("../../img/icons/play.svg");
 }
-.icon__play:hover {
-  color: #f03e3d;
+.ico__arrow {
+  width: 12px;
+  height: 15px;
+  background-image: url("../../img/icons/arrow.svg");
 }
-.icon__play:hover .ico_play {
-  background-image: url("../img/icons/play-hover.svg");
+.ico__snake {
+  width: 18px;
+  height: 15px;
+  background-image: url("../../img/icons/snake.svg");
+}
+.ico__heart {
+  width: 18px;
+  height: 15px;
+  background-image: url("../../img/icons/heart.svg");
+}
+.ico__clock {
+  width: 15px;
+  height: 15px;
+  background-image: url("../../img/icons/clock.svg");
+}
+
+.icon-square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 50px;
+  border-radius: 19px;
+}
+.icon-square__lilium {
+  background-color: #7752be;
+}
+.icon-square__yellow {
+  background-color: #fab005;
+}
+.icon-square__red {
+  background-color: #f03e3d;
+}
+.icon-square__blue {
+  background-color: #4dadf7;
 }
 
 .wrapper {
@@ -556,7 +590,7 @@ h1 {
 .promo__link:hover {
   color: #f03e3d;
 }
-.promo__link:hover .icon__play {
+.promo__link:hover .ico__play {
   background-image: url("../../img/icons/play-hover.svg");
 }
 
