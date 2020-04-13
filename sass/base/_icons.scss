@@ -1,18 +1,60 @@
-.icon {
+.ico {
   display: inline-block;
   cursor: pointer;
+
+  &__play {
+    width: 18px;
+    height: 18px;
+    margin-right: 9px;
+    background-image: url("../../img/icons/play.svg");
+  }
+
+  &__arrow {
+    width: 12px;
+    height: 15px;
+    background-image: url("../../img/icons/arrow.svg");
+  }
+
+  &__snake {
+    width: 18px;
+    height: 15px;
+    background-image: url("../../img/icons/snake.svg");
+  }
+
+  &__heart {
+    width: 18px;
+    height: 15px;
+    background-image: url("../../img/icons/heart.svg");
+  }
+
+  &__clock {
+    width: 15px;
+    height: 15px;
+    background-image: url("../../img/icons/clock.svg");
+  }
 }
 
-.icon__play {
-  width: 18px;
-  height: 18px;
-  margin-right: 9px;
-  background-image: url("../../img/icons/play.svg");
+.icon-square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 50px;
+  border-radius: 19px;
 
-  &:hover {
-      color: $color-red;
-      .ico_play {
-          background-image: url("../img/icons/play-hover.svg");
-      }
+  &__lilium {
+    background-color: $color-violet;
+  }
+
+  &__yellow {
+    background-color: $color-yellow;
+  }
+
+  &__red {
+    background-color: $color-red;
+  }
+
+  &__blue {
+    background-color: $color-blue;
   }
 }

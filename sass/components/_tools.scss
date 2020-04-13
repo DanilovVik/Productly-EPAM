@@ -1,0 +1,43 @@
+.tools {
+  margin-bottom: 24px;
+}
+
+.tools .wrapper {
+  padding-bottom: 90px;
+  background-image: url("../../img/backgrounds/tools-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center bottom;
+}
+
+.tools__title {
+  width: 462px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  @include font($size: 3.4rem, $height: 4.6rem , $weight: normal);
+  color: $color-title;
+  text-align: center;
+}
+
+.layout-4-column {
+  margin-bottom: 34px;
+}
+
+.tool__icon {
+  margin-bottom: 30px;
+}
+
+.tool__title {
+  margin: 0;
+  @include font($size: 2.2rem, $height: 3rem, $weight: normal);
+  color: $color-title;
+}
+
+.tool__text{
+  margin: 0;
+  color: $color-title;
+}
+
+.tools__buttons {
+  text-align: center;
+}
