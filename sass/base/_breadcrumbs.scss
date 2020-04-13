@@ -1,0 +1,35 @@
+.strategies-breadcrumbs__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.strategies-breadcrumbs__item {
+  border-radius: 90px;
+  margin-right: 7px;
+  padding: 0 14px;
+  cursor: pointer;
+  border: 1px solid #D7D7D7;
+  @include font($size: 1.3rem, $height: 2.8rem, $weight: normal);
+  color: $color-text;
+
+  &--col {
+    background-color: #f5f5f5;
+    margin-right: 9px;
+  }
+
+  &:hover {
+    background-color: $color-btn-hover;
+  }
+
+  &--active {
+    background-color: $color-btn-primery;
+    color: $color-light;
+
+    &:hover {
+      background-color: $color-btn-primery;
+    }
+  }
+}
